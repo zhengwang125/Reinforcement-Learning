@@ -1,6 +1,7 @@
 # Chapter 3: Finite Markov Decision Processes
 ## 1. Ex3.7 (on page 44)
-Is my solution correct? (for understanding of episodic task and continuing task) <font color=red> 红色 </font>
+Is my solution correct? (for understanding of episodic task and continuing task) `I think so`
+
 
 
 ### Question
@@ -22,7 +23,10 @@ $$
 
 # Chapter 4: Dynamic Programming
 ## 1. page 60 about *expected update*
-Why is this kind of operation called *expected update*? Is it becase this updat is based on some expectation according to certain policy? And what is sample next state, is this related to Monte Carlo Methods where policy is not needed during update?
+Why is this kind of operation called *expected update*? Is it becase this updat is based on some expectation according to certain policy? 
+`According to the Equation (4.5) on Page 60, it updates $v_{k+1}$ from $v_{k}$ by traversing all possible one-step transitions under the policy. This kind of operation is called expected update.`
+And what is sample next state, is this related to Monte Carlo Methods where policy is not needed during update? 
+`Computing the expected updates is much time-consuming, an idea that can alleviate the issue is called sample update, which randomly samples a next state for the update instead of considering all possible next states.`
 
 ## 2. Ex 4.4 (page 65)
 ### Question
