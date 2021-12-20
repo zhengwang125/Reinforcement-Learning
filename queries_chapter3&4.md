@@ -8,11 +8,10 @@ Suppose you treated pole-balancing as an episodic task but also used discounting
 Let $K$ be the number of time steps before failure.\
 For episodic task:
 $$\begin{aligned}
-G_t &= R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ... + \gamma^K R_{t+k+1} \\
-&=0 + 0 + 0 + ... + \gamma^K (-1) \\
-&=-\gamma^K
+G_t &= R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ... + \gamma^K R_{t+k+1} =0 + 0 + 0 + ... + \gamma^K (-1)=-\gamma^K
 \end{aligned}
 $$
+
 For continuing formulation of this task:
 $$\begin{aligned}
 G_t &= R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ... + \gamma^K R_{t+k+1} + .... \\
