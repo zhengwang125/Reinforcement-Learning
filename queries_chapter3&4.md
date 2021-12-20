@@ -14,7 +14,7 @@ $$
 
 For continuing formulation of this task:
 $$\begin{aligned}
-G_t &= R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ... + \gamma^K R_{t+k+1} + .... =0 + 0 + 0 + ... + \sum_{i=K}^{\infin} \gamma^i (-1) =-\gamma^K\frac{1}{1-\gamma}
+G_t &= R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ... + \gamma^K R_{t+k+1} + .... =0 + 0 + 0 + ... + \sum_{i=K}^{\infty} \gamma^i (-1) =-\gamma^K\frac{1}{1-\gamma}
 \end{aligned}
 $$
 
