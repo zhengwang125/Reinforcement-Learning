@@ -26,7 +26,7 @@ $$
 Why is this kind of operation called *expected update*? Is it becase this updat is based on some expectation according to certain policy? 
 `According to the Equation (4.5) on Page 60, it updates $v_{k+1}$ from $v_{k}$ by traversing all possible one-step transitions under the policy. This kind of operation is called expected update.`
 And what is sample next state, is this related to Monte Carlo Methods where policy is not needed during update? 
-`Computing the expected updates is much time-consuming, an idea that can alleviate the issue is called sample update, which randomly samples a next state for the update instead of considering all possible next states.`
+`Computing the expected updates is time-consuming, an idea that can alleviate the issue is called sample update, which randomly samples a next state for the update instead of considering all possible next states.`
 
 ## 2. Ex 4.4 (page 65)
 ### Question
