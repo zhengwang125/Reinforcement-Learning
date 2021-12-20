@@ -1,6 +1,6 @@
 # Chapter 3: Finite Markov Decision Processes
 ## 1. Ex3.7 (on page 44)
-Is my solution correct? (for understanding of episodic task and continuing task)
+Is my solution correct? (for understanding of episodic task and continuing task) <font color=Blue>I think so.</font>
 ### Question
 Suppose you treated pole-balancing as an episodic task but also used discounting, with all rewards zero except for −1 upon failure. What then would the return be at each time? How does this return differ from that in the discounted, continuing formulation of this task?
 
