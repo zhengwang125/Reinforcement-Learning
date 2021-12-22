@@ -33,7 +33,7 @@ And what is sample next state, is this related to Monte Carlo Methods where poli
 The policy iteration algorithm given on this page has a subtle bug in that it may never terminate if the policy continually switches between two or more policies that are equally good. This is ok for pedagogy, but not for actual use. Modifiy the pseudocode so that convergence is guaranteed.
 ### Proposed Solution
 let the actions chosen be a set of all possible best actions rather one arbitrary best action. \
-Query: Is this the correct thinking direction?
+Query: Is this the correct thinking direction? `I think so`
 
 ## 3. page 69 about convergence of asynchrnous DP
 "(In the undiscounted episodic case, it is possible that there are
